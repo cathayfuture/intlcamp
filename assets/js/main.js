@@ -23,14 +23,14 @@
 			$banner = $('#banner'),
 			$header = $('#header');
 
-		// // Disable animations/transitions until the page has loaded.
-		// 	$body.addClass('is-loading');
+		// Disable animations/transitions until the page has loaded.
+			$body.addClass('is-loading');
 
-		// 	$window.on('load', function() {
-		// 		window.setTimeout(function() {
-		// 			$body.removeClass('is-loading');
-		// 		}, 100);
-		// 	});
+			$window.on('load', function() {
+				window.setTimeout(function() {
+					$body.removeClass('is-loading');
+		 		}, 100);
+		 	});
 
 		// Mobile?
 			if (skel.vars.mobile)
